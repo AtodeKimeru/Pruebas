@@ -8,10 +8,10 @@ h1 {
     color: #eeeeee;
 }
 
-#ojo {
+.ojo {
     background-color: white;
 }
 
-#iris {
-    background-color: black;
+.iris {
+    background-color: brown;
 }
