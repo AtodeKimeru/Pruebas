@@ -1,0 +1,17 @@
+body {
+    background-color: #afa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    background-color: #ebe;
+    color: #eeeeee;
+}
+
+#ojo {
+    background-color: white;
+}
+
+#iris {
+    background-color: black;
+}
