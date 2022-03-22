@@ -6,6 +6,7 @@ body {
 h1 {
     background-color: #ebe;
     color: #eeeeee;
+    text-align: center;
 }
 
 .ojo {
@@ -13,6 +14,9 @@ h1 {
     position: absolute;
     width: 300px;
     height: 150px;
+    border-radius: 50%;
+    left: 25%;
+    top: 25%;
 }
 
 .iris {
