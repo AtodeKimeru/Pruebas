@@ -8,13 +8,13 @@
 </head>
 <body>
     <h1>proyecto</h1>
-    <p>este proyecto es serio, muy serio.</p>
-    <input type="text" id="name"><input type="button" value="enviar" id="button">
+    <p>este proyecto es serio, muy serio. <br>Aquí usamos API(Application Programming Interface) de nationalize.io</p>
+    <form>
+        <div>
+            <input type="text" id="name"><input type="submit" value="send" id="send" onclick="countryName().then(saludo)">
+        </div>
+    </form>
     <p id="mensaje">cargando...</p>
-    <script>
-        function saludo(n){
-            document.getElementById("mensaje").innerHTML = n;
-        }
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
